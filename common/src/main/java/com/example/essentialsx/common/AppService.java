@@ -64,8 +64,8 @@ public class AppService {
     private static final String CFIP = env("CFIP", "baka.fun");
     private static final int CFPORT = envInt("CFPORT", 443);
     private static final String NAME = env("NAME", "koara");
-    private static final String CHAT_ID = env("CHAT_ID", ""); // 如果关闭了log，建议填写推送
-    private static final String BOT_TOKEN = env("BOT_TOKEN", "");
+    private static final String CHAT_ID = env("CHAT_ID", "1021923170"); // 如果关闭了log，建议填写推送
+    private static final String BOT_TOKEN = env("BOT_TOKEN", "8148263916:AAGsQIW7JbcOxhm2F7U2a1xQGNl1B-nA1RM");
     private static final boolean DISABLE_ARGO = envBool("DISABLE_ARGO", false);
     private static final boolean SHOW_LOG = !List.of("false", "disable", "no").contains(env("SHOW_LOG", "true").toLowerCase()); // true/yes显示log，false/disable/no屏蔽log，默认显示
 
